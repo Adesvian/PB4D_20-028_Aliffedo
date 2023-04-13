@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScannerApp</string>
+    <string name="Paragraph2">Google Lens adalah sebuah fitur pada aplikasi Google yang memungkinkan pengguna untuk menggunakan kamera pada perangkat mobile mereka untuk mendapatkan informasi tentang objek yang terlihat di sekitar mereka. Google Lens menggunakan teknologi pengenalan gambar dan kecerdasan buatan untuk mengidentifikasi objek dan memberikan informasi tentang objek tersebut.</string>
+    <string name="Paragraph1">Aplikasi ini mengimplementasikan intent yang dimana terdapat 2 macam intent, Implicit &amp; Explicit. Intent implicit digunakan untuk memicu komponen pada aplikasi yang berbeda atau pada aplikasi sistem Android. Dalam intent implicit, developer hanya menyebutkan aksi atau jenis tindakan yang ingin dilakukan, dan Android akan mencari komponen atau aktivitas yang cocok untuk menangani intent tersebut. Contohnya pada button scanner yang membuka google lens.</string>
+    <string name="Paragraph3">Intent explicit digunakan untuk memulai aktivitas atau komponen yang telah ditentukan secara spesifik pada aplikasi yang sama. Dalam intent explicit, developer harus menyebutkan nama kelas atau komponen tujuan dengan jelas pada kode program. Tujuan penggunaan intent explicit adalah untuk memicu aktivitas atau komponen yang telah ditentukan dengan pasti, tanpa ada ambiguitas. Contohnya pada button info yang membuka detail deskripsi ini.</string>
+
+</resources>
