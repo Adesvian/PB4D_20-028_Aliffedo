@@ -1,6 +1,7 @@
 package com.example.scannerapp
 
 import android.app.Activity
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -19,15 +20,14 @@ class MainActivity : AppCompatActivity() {
         val btn2 = findViewById<ImageButton>(R.id.imageButton2)
 
         btn.setOnClickListener{
-            val intent = Intent(Intent.ACTION_VIEW).apply {
-                data = Uri.parse("http://www.google.com")
-                setPackage("com.google.ar.lens")
-            }
-            if (intent.resolveActivity(packageManager) != null) {
+            val intent = packageManager.getLaunchIntentForPackage("com.google.ar.lens")
+            if (intent != null) {
+                intent.action = Intent.ACTION_MAIN
                 startActivity(intent)
             } else {
                 Toast.makeText(this, "Aplikasi Google Lens tidak terpasang di perangkat ini", Toast.LENGTH_SHORT).show()
             }
+
         }
 
         btn2.setOnClickListener{

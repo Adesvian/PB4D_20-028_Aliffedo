@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="65sp"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/title"
+        />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/white"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/inputText"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>
