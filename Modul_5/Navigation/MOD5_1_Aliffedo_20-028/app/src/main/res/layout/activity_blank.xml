@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blank">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apa itu OVO"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:text="OVO, officially a product of PT Visionet Internasional, is a digital payment service based in Jakarta, Indonesia. It was established in 2017 with an e-money license from Bank Indonesia and in 2019 was Indonesia's top digital payment service."
+            android:textSize="15sp"
+            android:justificationMode="inter_word"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+
+
+</ScrollView>
